@@ -1,0 +1,15 @@
+﻿*.duckdb
+*.duckdb.wal
+*.csv
+*.parquet
+duck_tmp/
+.venv/
+Data/
+.env
+test.py
+test2.py
+test3.py
+Tables_testing.py
+Testing_Teaching_hospital.py
+check_missing_products.py
+build_product_map.py
