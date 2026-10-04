@@ -100,7 +100,7 @@ CREATE TABLE STG.Dim_physician (
     physician_key serial,
     physician_profile_id BIGINT unique,
     physician_npi BIGINT unique,
-    physician_name_suffix VARCHAR(10),
+    physician_name_suffix VARCHAR(50),
     physician_first_name VARCHAR(100),
     physician_middle_name VARCHAR(100),
     physician_last_name VARCHAR(100),
